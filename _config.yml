@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Xiaojian Ding/ Site Title"
+title                    : "Xiaojian Ding"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png"
   name             : "Xiaojian Ding"
   location         : "Nanjing"
-  employer         : "Nanjing University of Finance and Economics"
+  employer         : "NUFE"
   email            : "wjswsl@163.com" 
 
   # Academic websites
