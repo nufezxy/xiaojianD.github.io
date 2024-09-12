@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Xiaojian Ding"
+title                    : "Xiaojian Ding\Nanjing University of Finance and Economics"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
