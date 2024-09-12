@@ -13,6 +13,8 @@ redirect_from:
 2. Developing innovative **informatics methods and tools** to address data science challenges in biomedicine.
 3. **Interpretable and responsible machine learning models** for clinical decision support.
 
+---
+
 ### Recent Publications
 
 1. **Xiaojian Ding**, Fan Yang. *Multi-View Randomized Kernel Classification via Nonconvex Optimization* [C]. In *Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)*, Vancouver, Canada, Feb 20-27, 2024. (CCF A)
@@ -47,6 +49,8 @@ redirect_from:
 
 16. 丁晓剑, 赵银亮. *偏置 b 对支持向量机分类问题泛化性能的影响* [J]. *自动化学报*, 2011, 37(9): 1105-1113. (EI, CCF A)
 
+---
+
 ### Academic Service
 
 **Review for Journals:**
@@ -63,9 +67,13 @@ redirect_from:
 - AAAI
 - ACM Multimedia
 
+---
+
 ### Research Interests
 
 - **Artificial Intelligence (AI)**
 - **Machine Learning**
 - **Large Language Models**
 - **Recommendation Systems**
+
+---
