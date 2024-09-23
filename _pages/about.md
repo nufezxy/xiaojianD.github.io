@@ -1,49 +1,79 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+**Dr. Ding** received his Ph.D. (2011) from Xi’an Jiaotong University, China. He served as a visiting scholar at the School of Electrical and Electronic Engineering, Nanyang Technological University (NTU) under the Chinese Scholarship Council (CSC) from 2009-2010. He was with the Laboratory of Science and Technology on Information Systems Engineering in Nanjing, China from 2011-2016, and with Huawei Technologies Co., Ltd, Nanjing, China from 2016-2018. He regularly served as Program Chair or Reviewer for **ICLR**, **AAAI**, **NeurIPS**, and **ACM MM**. He is also a regular reviewer for over 10 IEEE Transactions journals including **TCYB**, **TNNLS**, and **TAI**, as well as many other SCI international journals. His current research interests include:
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+1. **Multi-modal machine learning** for integrative analysis of heterogeneous biomedical data.
+2. Developing innovative **informatics methods and tools** to address data science challenges in biomedicine.
+3. **Interpretable and responsible machine learning models** for clinical decision support.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+---
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+### Recent Publications
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+1. **Xiaojian Ding**, Fan Yang. *Multi-View Randomized Kernel Classification via Nonconvex Optimization* [C]. In *Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)*, Vancouver, Canada, Feb 20-27, 2024. (CCF A)
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+2. **Xiaojian Ding**, Yi Li, and Shilin Chen. *Maximum Margin and Global Criterion Based-Recursive Feature Selection* [J]. *Neural Networks*, 2024, vol. 169, pp. 597-606. (SCI, IF=7.8001, CCF B)
 
-**Markdown generator**
+3. **Xiaojian Ding**, Fan Yang, Fumin Ma, and Shilin Chen. *A Unified Multi-Class Feature Selection Framework for Microarray Data* [J]. *IEEE/ACM Transactions on Computational Biology and Bioinformatics*, 2023, vol. 20, no. 6, pp. 3725-3736. (SCI, IF=4.5003, CCF B)
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+4. **Xiaojian Ding**, Fan Yang, Yaoyi Zhong, Jie Cao. *A Novel Recursive Gene Selection Method Based on Least Square Kernel Extreme Learning Machine* [J]. *IEEE/ACM Transactions on Computational Biology and Bioinformatics*, 2022, vol. 19, no. 4, pp. 2026-2038. (SCI, IF=4.5003, CCF B)
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+5. **Xiaojian Ding**, Jian Liu, Fan Yang, Jie Cao. *Random Compact Gaussian Kernel: Application to ELM Classification and Regression* [J]. *Knowledge-Based Systems*, 2021, 217: 106848. (SCI, IF=8.139, CCF C)
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+6. **Xiaojian Ding**, Fan Yang, Fumin Ma. *An Efficient Model Selection for Linear Discriminant Function-Based Recursive Feature Elimination* [J]. *Journal of Biomedical Informatics*, 2022, 129: 104070. (SCI, IF=8, CCF C)
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+7. **Xiaojian Ding**, Sheng Jin, Ming Lei, Jie Cao. *A Predictor-Corrector Affine Scaling Method to Train Optimized Extreme Learning Machine* [J]. *Journal of the Franklin Institute*, 2022, 359(2): 1713-1731. (SCI, IF=4.0998)
+
+8. **Xiaojian Ding**, Fan Yang, Sheng Jin, Jie Cao. *An Efficient Alpha Seeding Method for Optimized Extreme Learning Machine-Based Feature Selection Algorithm* [J]. *Computers in Biology and Medicine*, 2021, 134: 104505. (SCI, IF=6.698)
+
+9. **Xiaojian Ding**, Jian Liu, Fan Yang, Jie Cao. *Random Radial Basis Function Kernel-Based Support Vector Machine* [J]. *Journal of the Franklin Institute*, 2021, 358(18): 10121-10140. (SCI, IF=4.0998)
+
+10. **Xiaojian Ding**, Yuan Lan, Zhifeng Zhang, Xin Xu. *Optimization Extreme Learning Machine with ν Regularization* [J]. *Neurocomputing*, 2017, 261: 11-19. (SCI, IF=5.998, CCF C)
+
+11. **Xiaojian Ding**, Baofang Chang. *Active Set Strategy of Optimized Extreme Learning Machine* [J]. *Chinese Science Bulletin*, 2014, 59(31): 4152-4160. (SCI, IF=18.90)
+
+12. Guangbin Huang, Hongming Zhou, **Xiaojian Ding**, Rui Zhang. *Extreme Learning Machine for Regression and Multiclass Classification* [J]. *IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics)*, 2012, 42(2): 513-529. (SCI, IF=11.80, CCF B)
+
+13. 丁晓剑, 赵银亮. *无偏置支持向量回归优化问题* [J]. *软件学报*, 2012, 23(9): 2336-2346. (EI, CCF A)
+
+14. 丁晓剑, 赵银亮, 李远成. *基于 SVM 的二次下降有效集算法* [J]. *电子学报*, 2011, 39(8): 1766-1770. (EI, CCF A)
+
+15. 丁晓剑, 赵银亮. *优化极限学习机的序列最小优化方法* [J]. *西安交通大学学报*, 2011, 45(6): 7-12. (EI) (获西安交通大学学报2012最具学术影响力优秀论文和2013年度优秀学术论文，2013获领跑者5000中国精品科技期刊顶尖学术论文)
+
+16. 丁晓剑, 赵银亮. *偏置 b 对支持向量机分类问题泛化性能的影响* [J]. *自动化学报*, 2011, 37(9): 1105-1113. (EI, CCF A)
+
+---
+
+### Academic Service
+
+**Review for Journals:**
+- IEEE Transactions on Cybernetics (TCYB)
+- IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
+- IEEE Transactions on Artificial Intelligence (TAI)
+- IEEE Transactions on Emerging Topics in Computational Intelligence
+- Engineering Applications of Artificial Intelligence
+- Information Fusion
+- Knowledge-Based Systems
+
+**Review for Conferences:**
+- NeurIPS
+- AAAI
+- ACM Multimedia
+
+---
+
+### Research Interests
+
+- **Artificial Intelligence (AI)**
+- **Machine Learning**
+- **Large Language Models**
+- **Recommendation Systems**
+
+---
